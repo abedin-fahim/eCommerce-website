@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FashionFest eCommerce Website</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css"
+        integrity="sha512-oe8OpYjBaDWPt2VmSFR+qYOdnTjeV9QPLJUeqZyprDEQvQLJ9C5PCFclxwNuvb/GQgQngdCXzKSFltuHD3eCxA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/tiny-slider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header id="header-section">
+        <section id="top-header" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center py-2">
+                        <p class="text-white mb-0">Checkout the latest discount!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><img src="img/logo/bigint.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search from Cloths, Categories, and Brand" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="bi bi-person" id="user-icon"></i>
+                                <div class="login-logout-popup hide">
+                                    <p class="account-info">Logged in as, name</p>
+                                    <button class="btn default-btn-altr" id="user-btn">Log out</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart-check"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section Starts -->
+        <section id="hero-section">
+            <div class="hero-slider">
+                <div class="container-fluild">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-details text-center">
+                                <h3>Best of the Best</h3>
+                                <p>They're our favorites - and with good reason, Discover Italic's best selling and Top
+                                    rated Products</p>
+                                <a href="#" class="default-btn">Let's explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/hero.jpg" alt="hero">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluild">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-details text-center">
+                                <h3>Best of the Best</h3>
+                                <p>They're our favorites - and with good reason, Discover Italic's best selling and Top
+                                    rated Products</p>
+                                <a href="#" class="default-btn">Let's explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/hero.jpg" alt="hero">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluild">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-details text-center">
+                                <h3>Best of the Best</h3>
+                                <p>They're our favorites - and with good reason, Discover Italic's best selling and Top
+                                    rated Products</p>
+                                <a href="#" class="default-btn">Let's explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/hero.jpg" alt="hero">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section Ends -->
+
+        <!-- Features Section Starts -->
+        <section id="feature-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-details text-center">
+                            <div class="feature-icon">
+                                <i class="bi bi-arrow-clockwise"></i>
+                            </div>
+                            <h4 class="feature-title">Our Feature Services</h4>
+                            <p>Never Mind /Care Pack Campaign</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-details text-center">
+                            <div class="feature-icon">
+                                <i class="bi bi-cart-check"></i>
+                            </div>
+                            <h4 class="feature-title">Free Nationwide Shipping</h4>
+                            <p>Free shipping for all orders </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-details text-center">
+                            <div class="feature-icon">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h4 class="feature-title">24/7 Customer Support</h4>
+                            <p>Friendly 24/7 customer support</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-details text-center">
+                            <div class="feature-icon">
+                                <i class="bi bi-credit-card-2-front"></i>
+                            </div>
+                            <h4 class="feature-title">Cash on Delivery</h4>
+                            <p>We accept COD / We accept bKash</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section Ends -->
+
+        <!-- Latest Product Section Starts -->
+        <section id="latest-product-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-header text-center">
+                            <h3>Latest Products</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Row ends here -->
+                <div class="text-center mb-30px">
+                    <a href="all-product.html" class="btn btn-all-products">View All Products</a>
+                </div>
+            </div>
+        </section>
+        <!-- Latest Product Section Ends -->
+
+        <!-- Man/Kids Section Starts-->
+        <section id="mankids-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 man-category ps-0 pe-0">
+                        <div class="mankids-details">
+                            <h4><a href="#">Men</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 kids-category ps-0 pe-0">
+                        <div class="mankids-details">
+                            <h4><a href="#">Kids</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Man/Kids Section Ends-->
+
+        <!-- Best Selling Product Section Starts -->
+        <section id="latest-product-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-header text-center">
+                            <h3>Best Selling Products</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Deconstructed-Knit-Blazer01-600x764.jpg"
+                                    alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Heathered-Short-Sleeve-V-Neck-T-Shirt01-600x764.jpg"
+                                    alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Sherpa-Fleece-Jacket01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/WD·NY-Black-Mens-Palm-Burgundy-Jacket02-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Row ends here -->
+                <div class="text-center mb-30px">
+                    <a href="all-product.html" class="btn btn-all-products">View More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Best Selling Product Section Ends -->
+
+        <!-- Brand Section Starts -->
+        <section id="brand-section">
+            <div class="container">
+                <div class="row brand-slider">
+                    <div class="col-12">
+                        <img src="img/brand/logo-1.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-2.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-3.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-4.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-5.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-6.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-1.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-2.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brand/logo-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Brand Section Ends -->
+
+
+        <!-- Featured Product Section Starts -->
+        <section id="latest-product-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-header text-center">
+                            <h3>Featured Products</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/WD·NY-Black-Mens-Palm-Burgundy-Jacket01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Sweater-Fleece-Jacket01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Short-Sleeve-V-Neck-T-Shirt01-1-600x764.jpg"
+                                    alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Row ends here -->
+                <div class="text-center mb-30px">
+                    <a href="all-product.html" class="btn btn-all-products">View More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Product Section Ends -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-logo">
+                        <img src="img/logo/Group 47.svg" alt="BigInteger Logo" class="img-fluid">
+                    </div>
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing. something in everyday
+                    </p>
+                    <div class="footer-icon">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#"><i class="bi bi-github"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 mt-5 mt-lg-0">
+                    <div class="footer-content">
+                        <h2>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet.</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer-contact">
+                                    <h4>Email us</h4>
+                                    <p>info@webmail.com</p>
+                                    <p>contact@webmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Call Us</h4>
+                                <p>+880 1811 222</p>
+                                <p>+1245 67 8890</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Get in touch</h4>
+                                <p>56 Humburg BC Road D Block, Germany</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"
+        integrity="sha512-lbwH47l/tPXJYG9AcFNoJaTMhGvYWhVM9YI43CT+uteTRRaiLCui8snIgyAN8XWgNjNhCqlAUdzZptso6OCoFQ=="
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

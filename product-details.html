@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Details - FashionFest eCommerce Website</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css"
+        integrity="sha512-oe8OpYjBaDWPt2VmSFR+qYOdnTjeV9QPLJUeqZyprDEQvQLJ9C5PCFclxwNuvb/GQgQngdCXzKSFltuHD3eCxA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <header id="header-section">
+        <section id="top-header" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center py-2">
+                        <p class="text-white mb-0">Checkout the latest discount!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><img src="img/logo/bigint.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search from Cloths, Categories, and Brand" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="bi bi-person" id="user-icon"></i>
+                                <div class="login-logout-popup hide">
+                                    <p class="account-info">Logged in as, name</p>
+                                    <button class="btn default-btn-altr" id="user-btn">Log out</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart-check"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Product</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Mens Standard Fit Crew</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <section id="product-pricing">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="fotorama" data-width="700" data-ratio="3/2" data-nav="thumbs" data-thumbheight="48">
+                            <a href="img/products/Mens-Standard-Fit-Crew-T-Shirt03-600x764.jpg"><img
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg" width="144"
+                                    height="96"></a>
+                            <a href="img/products/Mens-Standard-Fit-Crew-T-Shirt02-600x764.jpg"><img
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt02-600x764.jpg" width="144"
+                                    height="96"></a>
+                            <a href="img/products/Mens-Standard-Fit-Crew-T-Shirt01-600x764.jpg"><img
+                                    src="img/products/Mens-Standard-Fit-Crew-T-Shirt03-600x764.jpg" width="144"
+                                    height="96"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="product-details">
+                            <h3>Mens Standard Fit Crew</h3>
+                            <h5>$20.00</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas
+                                necessitatibus alias incidunt soluta asperiores saepe eligendi dignissimos sint esse
+                                numquam molestias ullam unde quisquam nisi, quam nihil ut optio?</p>
+                            <p>Category: <a href="">Nike</a></p>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">sm</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">md</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">lg</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">xl</label>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="btn btn-all-products" href="#">Add to Cart</a>
+                                <a class="btn btn-all-products btn-altr" href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product-info-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Product Details</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile" aria-selected="false">Delivery &
+                                    Returns</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                    type="button" role="tab" aria-controls="contact" aria-selected="false">Size
+                                    Guide</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="container">
+                                    <h5>Product Details</h5>
+                                    <ul class="details-list">
+                                        <li>
+                                            <p>OS: Android 11, One UI 3.1 Core</p>
+                                        </li>
+                                        <li>
+                                            <p>Chipset: MediaTek MT6765 Helio P35 (12nm)</p>
+                                        </li>
+                                        <li>
+                                            <p>CPU: Octa-core (4x2.35 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)</p>
+                                        </li>
+                                        <li>
+                                            <p>GPU: PowerVR GE8320</p>
+                                        </li>
+                                        <li>
+                                            <p>Display Size: 6.5 inches | PLS LCD</p>
+                                        </li>
+                                        <li>
+                                            <p>Display Resolution: 720 x 1600 pixels, 20:9 ratio (~270 ppi density)</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="container">
+                                    <h5>Delivery & Return Policy</h5>
+                                    <ul class="mb-5">
+                                        <ol>
+                                            <p>Your item must be unused and in the same condition that you received it.
+                                            </p>
+                                        </ol>
+                                        <ol>
+                                            <p>The item must be in the original packaging.</p>
+                                        </ol>
+                                        <ol>
+                                            <p>To complete your return, we require a receipt or proof of purchase.</p>
+                                        </ol>
+                                        <ol>
+                                            <p>Only regular priced items may be refunded, sale items cannot be refunded.
+                                            </p>
+                                        </ol>
+                                        <ol>
+                                            <p>If the item in question was marked as a gift when purchased and shipped
+                                                directly to you, you will receive a gift credit for the value of your
+                                                return.</p>
+                                        </ol>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="container">
+                                    <h5>Size Guides</h5>
+                                    <ul class="mb-5">
+                                        <ol>
+                                            <p>Your item must be unused and in the same condition that you received it.
+                                            </p>
+                                        </ol>
+                                        <ol>
+                                            <p>The item must be in the original packaging.</p>
+                                        </ol>
+                                        <ol>
+                                            <p>To complete your return, we require a receipt or proof of purchase.</p>
+                                        </ol>
+                                        <ol>
+                                            <p>Only regular priced items may be refunded, sale items cannot be refunded.
+                                            </p>
+                                        </ol>
+                                        <ol>
+                                            <p>If the item in question was marked as a gift when purchased and shipped
+                                                directly to you, you will receive a gift credit for the value of your
+                                                return.</p>
+                                        </ol>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reviews-section">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header text-center py-4 bg-white">
+                        <h3>Reviews</h3>
+                    </div>
+                    <div class="card-body py-5">
+                        <p class="card-text">There are currently no reviews for this product</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-product-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-header text-center">
+                            <h3>You may also like</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Deconstructed-Knit-Blazer01-600x764.jpg"
+                                    alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Heathered-Short-Sleeve-V-Neck-T-Shirt01-600x764.jpg"
+                                    alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/Mens-Standard-Fit-Sherpa-Fleece-Jacket01-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+                        <div class="product-card mb-30px">
+                            <div class="product-badge bg-danger">HOT</div>
+                            <div class="rating" onclick="toggleRating(this)"><i class="bi bi-star-fill"></i></div>
+                            <a href="" class="product-image"><img class="img-fluid"
+                                    src="img/products/WD·NY-Black-Mens-Palm-Burgundy-Jacket02-600x764.jpg" alt=""></a>
+                            <div class="product-card-body">
+                                <div class="product-category"><a href="">Smartphones</a></div>
+                                <h3 class="product-name"><a href="">Samsung Galaxy Note10</a></h3>
+                                <div class="product-price">
+                                    <span class="del">$1,299</span> $1,200
+                                </div>
+                                <div class="product-button-group">
+                                    <a onclick="toggleWishlist(this)" id="btn-wishlist" class="product-button"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-heart"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                    <a class="product-button" href="">
+                                        <i class="bi bi-info-circle"></i>
+                                        <span>Details</span>
+                                    </a>
+                                    <a class="product-button btn-add-cart" onclick="toggleCart(this)"
+                                        href="javascript:void(0)">
+                                        <i class="bi bi-cart"></i>
+                                        <span>To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Row ends here -->
+                <div class="text-center mb-30px">
+                    <a href="all-product.html" class="btn btn-all-products">View More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-logo">
+                        <img src="img/logo/Group 47.svg" alt="BigInteger Logo" class="img-fluid">
+                    </div>
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing. something in everyday
+                    </p>
+                    <div class="footer-icon">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#"><i class="bi bi-github"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 mt-5 mt-lg-0">
+                    <div class="footer-content">
+                        <h2>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet.</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer-contact">
+                                    <h4>Email us</h4>
+                                    <p>info@webmail.com</p>
+                                    <p>contact@webmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Call Us</h4>
+                                <p>+880 1811 222</p>
+                                <p>+1245 67 8890</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Get in touch</h4>
+                                <p>56 Humburg BC Road D Block, Germany</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"
+        integrity="sha512-lbwH47l/tPXJYG9AcFNoJaTMhGvYWhVM9YI43CT+uteTRRaiLCui8snIgyAN8XWgNjNhCqlAUdzZptso6OCoFQ=="
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+</body>
+
+</html>

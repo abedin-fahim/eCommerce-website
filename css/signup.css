@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img.loader {
+    position: absolute;
+    /*  TO CENTER A ELEMENT AT VARTICALLY AND HORIZONTALLY  */
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto; */
+    /* Or */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}

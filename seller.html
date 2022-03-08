@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seller Dashboard - FashionFest eCommerce Website</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="css/seller.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <img src="img/loader.gif" class="loader" alt="loader">
+
+    <img src="img/logo/bigint.png" class="logo" alt="logo">
+
+    <!-- Become a seller section -->
+    <section class="become-seller hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="seller-heading mb-5">Become a seller</h3>
+                    <p class="seller-des my-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sit earum quos dolorem
+                        consequuntur, officia nihil id non quaerat explicabo, quod inventore natus ex cupiditate. Animi
+                        assumenda, ad adipisci exercitationem quidem, voluptatum quia fugit earum veritatis doloribus
+                        officiis dignissimos, in repellendus ex obcaecati quam maxime error repudiandae facilis mollitia
+                        vitae. Deserunt impedit et voluptatum modi ab ullam soluta quibusdam aperiam nesciunt porro,
+                        sint, aliquid facilis odio nobis. Ex aut aliquam amet dolorum eos? Omnis, fugiat hic ut
+                        blanditiis dignissimos similique, nostrum eaque ratione illum harum aliquam vel laborum ipsam, a
+                        culpa doloribus explicabo quo voluptates? Praesentium molestias tempore facere voluptatem?
+                    </p>
+                    <button class="btn default-btn-altr" id="apply-btn">Apply to be a Seller</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Form -->
+    <section class="apply-form hide">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-3 col-lg-6">
+                    <h6 class="text-danger text-center" id="create-alert"></h6>
+                    <form autocomplete="off">
+                        <div class="mb-3 form-group">
+                            <label for="Name">Business Name, Company Name, Shop Name</label>
+                            <input type="email" id="business-name" autocomplete="off" placeholder="Enter your Business Name"
+                                class="form-control form-control-lg">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Business Address</label>
+                            <textarea class="form-control" id="business-address" rows="5"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">About your business</label>
+                            <textarea class="form-control" id="business-about" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Your Number</label>
+                            <input type="tel" id="business-number" autocomplete="off"
+                                placeholder="Enter Your Number..." class="form-control form-control-lg">
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" checked type="checkbox"
+                                id="terms-conditions">
+                            <label class="form-check-label" for="terms-conditions">
+                                I agree to the terms and conditions.
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" checked type="checkbox"
+                                id="legit-info">
+                            <label class="form-check-label" for="terms-conditions">
+                                I agree that all the provided info is valid and legit.
+                            </label>
+                        </div>
+                        <button type="button" id="apply-form-btn" class="default-btn-altr create-submit-btn">Apply</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="product-listing hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="add-product d-flex justify-content-between">
+                        <h3 class="add-product-title">Add Product</h5>
+                        <button class="btn default-btn-altr">Add Product</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Scripts -->
+    <!-- <script src="./js/nav.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/seller.js"></script>
+    <script src="./js/token.js"></script>
+
+</body>
+
+</html>
